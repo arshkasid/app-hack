@@ -8,7 +8,6 @@ import EventTable from './compoment/reactTable';
 function App() {
   return (
     <div className="App">
-    <h1 style={{marginTop:"20%"}}>Excel Export</h1>
 
     <Reactdata />
     <ExportExcel excelData={Reactdata} fileName={"Excel Export"} />
