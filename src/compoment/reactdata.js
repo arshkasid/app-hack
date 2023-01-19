@@ -71,7 +71,7 @@ if(res){
 
 
 
-
+<div className="form-block">
 
 
 
@@ -110,9 +110,7 @@ if(res){
 
 
 
-
-
-
+</div>
 
       
 
