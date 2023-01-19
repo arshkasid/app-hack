@@ -13,7 +13,7 @@ function App() {
   return (
     <>
     <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="/">My App</Navbar.Brand>
+        <Navbar.Brand href="/app-hack">My App</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
@@ -23,7 +23,7 @@ function App() {
         </Navbar.Collapse>
       </Navbar>
 <Routes>
-  <Route path="/" element={<ReactLandinng/>} />
+  <Route path="/app-hack" element={<ReactLandinng/>} />
   <Route path="/reactdata" element={<Reactdata/>} />
     
     {/* <ExportExcel excelData={Reactdata} fileName={"Excel Export"} /> */}
