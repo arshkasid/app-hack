@@ -11,17 +11,19 @@ function LandingPage() {
         <hr className="my-4" />
         <a className="btn btn-primary btn-lg" href="/reactdata" role="button">Add Data!!</a>
       </Jumbotron>
+      <br />
+      <br />
       <Container>
         <Row>
           <Col md={6}>
-            <h2>Feature 1</h2>
-            <p>
+            
+            <p className='landingp'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna a faucibus blandit, ipsum magna faucibus velit, vel congue metus metus id metus.
             </p>
           </Col>
           <Col md={6}>
-            <h2>Feature 2</h2>
-            <p>
+            
+            <p className='landingp'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna a faucibus blandit, ipsum magna faucibus velit, vel congue metus metus id metus.
             </p>
           </Col>

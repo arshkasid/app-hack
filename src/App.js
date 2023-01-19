@@ -15,10 +15,12 @@ function App() {
     <nav className="navbar">
   <ul>
     <div><li id="navhead"><div className="navnav"><img className="icon" src="https://upload.wikimedia.org/wikipedia/en/f/ff/Manipal_University_logo.png" />&nbsp;&nbsp;&nbsp;MANIPAL UNIVERSITY JAIPUR</div></li>
-      <li id="lis"><a href="#">Contact Us</a></li>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Contact us</a></li>
+      <li id="lis"><a href="/app-hack">Home</a></li>
+     
+    
+      
     </div></ul>
 </nav>
 
