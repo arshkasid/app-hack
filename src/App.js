@@ -12,16 +12,16 @@ import { Navbar ,Nav} from 'react-bootstrap';
 function App() {
   return (
     <>
-    <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="/app-hack">My App</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto">
-            <Nav.Link href="#">About</Nav.Link>
-            <Nav.Link href="#">Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+    <nav className="navbar">
+  <ul>
+    <div><li id="navhead"><div className="navnav"><img className="icon" src="https://upload.wikimedia.org/wikipedia/en/f/ff/Manipal_University_logo.png" />&nbsp;&nbsp;&nbsp;MANIPAL UNIVERSITY JAIPUR</div></li>
+      <li id="lis"><a href="#">Contact Us</a></li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+    </div></ul>
+</nav>
+
 <Routes>
   <Route path="/app-hack" element={<ReactLandinng/>} />
   <Route path="/reactdata" element={<Reactdata/>} />

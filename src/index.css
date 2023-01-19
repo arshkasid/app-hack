@@ -69,3 +69,131 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
+
+*{
+  box-sizing: border-box;
+}
+.navbar{
+  background-color: grey;
+  width: 1807px;
+}
+.navbar ul{
+  overflow: auto;
+  list-style: none;
+  
+}
+.navbar li a{
+  color: white;
+  float : right;
+  padding:10px 10px;
+  text-decoration: none;
+  margin: 10px 6px;
+  padding-top: 20px;
+}
+.search{
+  float: right;
+  padding: 5px 15px;
+  margin: 10px;
+}
+.navbar input{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  border: 2px solid black;
+  border-radius: 34px;
+}
+.navbar li a:hover{
+  background-color: rgb(234, 211, 180);
+  border-radius: 34px;
+
+}
+p{
+  color: white;
+}
+#navhead{
+  color: white;
+  padding: 25px 25px;
+  float: left;
+  margin:auto;
+  font-size: 25px;
+}
+.primaryBg{
+  border: 2px solid black;
+  height: 455px;
+  width:1807px;
+  background-color:aliceblue;
+  margin-right:7px;
+}
+.icon{
+  height:35px;
+  width:35px;
+}
+.picone{
+  float:left;
+  border:2px solid black;
+  height:380px;
+  width:410px;
+  margin:20px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIhjms4Zdj-bgvDAJjIpTJsU7zcwbKLHY0VIemu8c4S5G7ha4lIqK2otNXSUg3th7WjLg&usqp=CAU');
+  background-repeat:no-repeat;
+  background-size: cover;
+
+}
+.picthree{
+  float:left;
+  border:2px solid black;
+  height:380px;
+  width:410px;
+  margin:20px;
+  background-image: url('https://www.careerindia.com/college-photos/520x380/21677/muj-campus_1463046011.jpg');
+  background-repeat:no-repeat 
+
+}
+.pictwo{
+  float:right;
+  border:2px solid black;
+  height:380px;
+  width:410px;
+  margin:20px;
+  background-image: url('https://images.indianexpress.com/2022/03/manipal-lead-1.jpg');
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+
+}
+.picfour{
+  float:right;
+  border:2px solid black;
+  height:380px;
+  width:410px;
+  margin:20px;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyhO1Hw4wUsVSyKsW-ISotU1mtvPllw375Qw&usqp=CAU');
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.navnav{
+  padding: 1px;
+}
+.button{
+  height: 56px;
+  width: 112px;
+}
+.center {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+.center2{
+position: absolute;
+top:25%;
+left: 50%;
+-ms-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+}
+p{
+  font-size: 30px;
+  color: black;
+}
