@@ -4,7 +4,7 @@ import { Jumbotron, Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
 function LandingPage() {
   return (
     <div>
-      
+      <div className="landing-page">
       <Jumbotron className="text-center">
         <h1 className="display-4">Welcome to My Landing Page</h1>
         <p className="lead">Learn more about my product or service and how it can benefit you.</p>
@@ -27,6 +27,7 @@ function LandingPage() {
           </Col>
         </Row>
       </Container>
+      </div>
     </div>
   );
 }

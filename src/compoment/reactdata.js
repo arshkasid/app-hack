@@ -68,7 +68,9 @@ if(res){
   return (
     <>
 
-
+<div class="title-container">
+            <h1>Add Data for the event</h1>
+        </div>
 
 
 <div className="form-block">
