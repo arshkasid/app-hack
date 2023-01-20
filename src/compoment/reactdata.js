@@ -113,7 +113,7 @@ if(res){
     <input type="email" className="form-control" id="entryBy" name="entryBy" placeholder="Enter the email of the person who did the entry" value={user.entryBy} onChange={getUserData} />
   </div>
   
-  <button type="submit" className="btn btn-primary "  onClick={ postData}>Submit</button>
+  <button type="submit" className="btn btn-primary "   onClick={ postData}>Submit</button>
   <a href="https://d.docs.live.net/8046a9efde9e838b/Documents/excelHACKT.xlsx" target="_blank" className="btn btn-primary" >Export</a>
 </form>
 

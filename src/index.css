@@ -1,4 +1,5 @@
 body {
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -72,8 +73,9 @@ input[type="submit"]:hover {
 
 *{
   box-sizing: border-box;
+  font-family:Times, serif;
 }
-.navbar{
+/* .navbar{
   background-color: rgb(200, 199, 199);
   width: 1807px;
 
@@ -104,7 +106,7 @@ input[type="submit"]:hover {
   border-radius: 34px;
   
 
-}
+} */
 p{
   color: white;
 }

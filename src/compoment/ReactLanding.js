@@ -8,7 +8,7 @@ function LandingPage() {
       <Jumbotron className="text-center">
       <h3 className="display-4"><em>Manipal University Jaipur</em></h3>
         <br/>
-        <h6 className="lead"><em>Activity Reporting and Document Storage</em></h6>
+        <h5 className="lead"><em>Activity Reporting and Document Storage</em></h5>
         <hr className="my-4" />
         <a className="btn btn-secondary btn-lg"  href="/reactdata" role="button"><em>Enter Event Details</em></a>
       </Jumbotron>

@@ -6,7 +6,7 @@ import ExportExcel from './excelexport';
 import EventTable from './compoment/reactTable';
 import ReactLandinng from './compoment/ReactLanding';
 import {Routes, Route} from 'react-router-dom';
-import { Navbar ,Nav} from 'react-bootstrap';
+import { Navbar ,Nav,NavDropdown} from 'react-bootstrap';
 
 
 function App() {
@@ -25,17 +25,38 @@ function App() {
 </nav> */}
  
 
-      <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="/app-hack">&nbsp; &nbsp; HOME</Navbar.Brand>
+       <Navbar bg="light" expand="lg">
+          <a className="navbar-brand" href="/app-hack">&nbsp; &nbsp;
+      <img src="https://upload.wikimedia.org/wikipedia/en/f/ff/Manipal_University_logo.png" alt="Bootstrap" width={30} height={24} />
+    </a>
+        <Navbar.Brand href="/app-hack"> HOME</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
+        
+
+
           <Nav.Link class="btn btn-sm btn-outline-secondary" href="https://jaipur.manipal.edu/muj/about-us.html" target="_blank">About</Nav.Link>
-            <Nav.Link class="btn btn-sm btn-outline-secondary" href="mailto:academic@jaipur.manipal.edu">Contact</Nav.Link>
             <Nav.Link class="btn btn-sm btn-outline-secondary" href="https://mujslcm.jaipur.manipal.edu:122/" target="_blank">DMS</Nav.Link>
+            <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Contact Us
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="mailto:academic@jaipur.manipal.edu">Academics</a></li>
+            <li><a class="dropdown-item" href="mailto:admissions@jaipur.manipal.edu">Admissions</a></li>
+            <li><a class="dropdown-item" href="mailto: registrar.office@jaipur.manipal.edu">Registrar Office</a></li>
+          </ul>
+        </li>
+
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
+      </Navbar> 
+
+    
+
+
+     
 
 
 
