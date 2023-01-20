@@ -6,29 +6,28 @@ function LandingPage() {
     <div>
       <div className="landing-page">
       <Jumbotron className="text-center">
-        <h1 className="display-4">Welcome to My Landing Page</h1>
-        <p className="lead">Learn more about my product or service and how it can benefit you.</p>
+      <h3 className="display-4"><em>Manipal University Jaipur</em></h3>
+        <br/>
+        <h6 className="lead"><em>Activity Reporting and Document Storage</em></h6>
         <hr className="my-4" />
-        <a className="btn btn-primary btn-lg" href="/reactdata" role="button">Add Data!!</a>
+        <a className="btn btn-secondary btn-lg"  href="/reactdata" role="button"><em>Enter Event Details</em></a>
       </Jumbotron>
       <br />
       <br />
-      <Container>
-        <Row>
-          <Col md={6}>
-            
-            <p className='landingp'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna a faucibus blandit, ipsum magna faucibus velit, vel congue metus metus id metus.
-            </p>
-          </Col>
-          <Col md={6}>
-            
-            <p className='landingp'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna a faucibus blandit, ipsum magna faucibus velit, vel congue metus metus id metus.
-            </p>
-          </Col>
-        </Row>
-      </Container>
+      <div class="picone">
+
+        </div>
+        <div class="picthree">
+
+        </div>
+
+        <div class="picfour">
+
+        </div>
+
+        <div class="pictwo">
+
+        </div>
       </div>
     </div>
   );

@@ -69,7 +69,7 @@ if(res){
     <>
 
 <div class="title-container">
-            <h1>Add Data for the event</h1>
+            <h1><em>Add Data for the Event</em></h1>
         </div>
 
 
@@ -87,27 +87,34 @@ if(res){
     <label htmlFor="eventDate">Date of Event</label>
     <input type="date" className="form-control" id="eventDate" name="eventDate" value={user.eventDate} onChange={getUserData} />
   </div>
+  <br />
   <div className="form-group">
     <label htmlFor="entryDate">Date of Entry</label>
     <input type="date" className="form-control" id="entryDate" name="entryDate" value={user.entryDate} onChange={getUserData} />
   </div>
+  <br />
   <div className="form-group">
     <label htmlFor="organizer">Organizing Person</label>
     <input type="text" className="form-control" id="organizer" name="organizer" placeholder="Enter the name of the organizing person" value={user.organizer} onChange={getUserData} />
   </div>
+  <br />
   <div className="form-group">
     <label htmlFor="attendees">Number of Attendees</label>
     <input type="number" className="form-control" id="attendees" name="attendees" placeholder="Enter the number of attendees" value={user.attendees} onChange={getUserData} />
   </div>
+  <br />
   <div className="form-group">
     <label htmlFor="report">Link of Report</label>
     <input type="url" className="form-control" id="report" name="report" placeholder="Enter the link of the report" value={user.report} onChange={getUserData} />
   </div>
+  <br />
   <div className="form-group">
     <label htmlFor="entryBy">Entry Done By (Email)</label>
     <input type="email" className="form-control" id="entryBy" name="entryBy" placeholder="Enter the email of the person who did the entry" value={user.entryBy} onChange={getUserData} />
   </div>
-  <button type="submit" className="btn btn-primary" onClick={ postData}>Submit</button>
+  
+  <button type="submit" className="btn btn-primary "  onClick={ postData}>Submit</button>
+  <a href="https://d.docs.live.net/8046a9efde9e838b/Documents/excelHACKT.xlsx" className="btn btn-primary" >Excel</a>
 </form>
 
 
