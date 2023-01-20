@@ -30,9 +30,9 @@ function App() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
-          <Nav.Link class="btn btn-sm btn-outline-secondary" href="https://jaipur.manipal.edu/muj/about-us.html">About</Nav.Link>
-            <Nav.Link class="btn btn-sm btn-outline-secondary" href="https://jaipur.manipal.edu/muj/contact-us.html">Contact</Nav.Link>
-            <Nav.Link class="btn btn-sm btn-outline-secondary" href="https://mujslcm.jaipur.manipal.edu:122/" parent="_blank">DMS</Nav.Link>
+          <Nav.Link class="btn btn-sm btn-outline-secondary" href="https://jaipur.manipal.edu/muj/about-us.html" target="_blank">About</Nav.Link>
+            <Nav.Link class="btn btn-sm btn-outline-secondary" href="mailto:academic@jaipur.manipal.edu">Contact</Nav.Link>
+            <Nav.Link class="btn btn-sm btn-outline-secondary" href="https://mujslcm.jaipur.manipal.edu:122/" target="_blank">DMS</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

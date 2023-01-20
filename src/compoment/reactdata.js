@@ -114,7 +114,7 @@ if(res){
   </div>
   
   <button type="submit" className="btn btn-primary "  onClick={ postData}>Submit</button>
-  <a href="https://d.docs.live.net/8046a9efde9e838b/Documents/excelHACKT.xlsx" className="btn btn-primary" >Excel</a>
+  <a href="https://d.docs.live.net/8046a9efde9e838b/Documents/excelHACKT.xlsx" target="_blank" className="btn btn-primary" >Export</a>
 </form>
 
 
